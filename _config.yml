@@ -1,5 +1,5 @@
 # Site settings
-title: "gjuniioor"
+title: "hjyoon"
 bye_message: "Thx!"
 baseurl: ""
 url: "https://hjyoon.github.io"
@@ -8,8 +8,8 @@ disqus: mygitblog-1
 # Header settings
 nick: "hjyoon"
 mail:
-    domain: "protonmail"
-    ext: "ch"
+    domain: "gmail"
+    ext: "com"
 source_code:
     server: "github.com"
     nick: "hjyoon"
