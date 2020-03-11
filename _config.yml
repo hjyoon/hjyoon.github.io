@@ -1,23 +1,46 @@
-# Site settings
-title: "hjyoon"
-bye_message: "Thx!"
-baseurl: ""
-url: "https://hjyoon.github.io"
-disqus: mygitblog-1
+title: dash
+author: GitHub User
+email: miguel-gonzalez@gmx.de
+description: > # this means to ignore newlines until "show_exerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+show_excerpts: false # set to true to show excerpts on the homepage
 
-# Header settings
-nick: "hjyoon"
-mail:
-    domain: "gmail"
-    ext: "com"
-source_code:
-    server: "github.com"
-    nick: "hjyoon"
-blog:
-    server: "wordpress.com"
-    nick: "hjyoon"
-fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+paginate: 1
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: bitbrain-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/bitbrain_
+      icon: twitter-square
+      color: cyan
+    - url: https://bitbrain.itch.io
+      icon: itch-io
+      color: red
+    - url: https://github.com/bitbrain
+      icon: github-square
+      color: purple
 
 # Build settings
-markdown: kramdown
-permalink: /:categories/:title/
+theme: jekyll-dash
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
