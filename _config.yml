@@ -1,4 +1,4 @@
-title: dash
+title: hjyoon
 author: GitHub User
 email: miguel-gonzalez@gmx.de
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -20,7 +20,7 @@ dash:
   date_format: "%b %-d, %Y"
 
   disqus:
-    shortname: bitbrain-github-io
+    shortname: mygitblog-1
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
@@ -31,7 +31,7 @@ dash:
     - url: https://bitbrain.itch.io
       icon: itch-io
       color: red
-    - url: https://github.com/bitbrain
+    - url: https://github.com/hjyoon
       icon: github-square
       color: purple
 
