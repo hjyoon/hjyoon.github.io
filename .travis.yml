@@ -1,11 +1,6 @@
-before_install:
-- gem install bundler -v 2.0.1
-script:
-- bundle install
-deploy:
-  provider: rubygems
-  api_key: $RUBYGEMS_API_KEY
-  gem: jekyll-dash
-  on:
-    tags: true
-    repo: bitbrain/jekyll-dash
+language: ruby
+cache: bundler
+rvm: 2.6
+
+install: script/bootstrap
+script: script/cibuild

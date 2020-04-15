@@ -1,6 +1,5 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "liquid-md5"
-gem "jekyll-tagging"
+source 'https://rubygems.org'
 
 gemspec
